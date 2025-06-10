@@ -26,6 +26,11 @@
               echo '<br>';
             }
         }
+        
+        foreach ($array as $numbers) {
+            echo $numbers . '<br>';
+        }
+
         sort_2way ($nums, TRUE);
         sort_2way ($nums, FALSE);
 
