@@ -9,14 +9,15 @@
 <body>
     <p>
         <?php
-        function order($order15, $order4, $order18, $order23, $order10);
-        if ($order) {
+        $nums = [15, 4, 18, 23, 10];
+        function sort_2way ($nums)
+        if ($nums) {
             echo '昇順にソートします。';
 
             // 改行する
             echo '<br>';
 
-　　　　　　　sort_2way($order);
+　　　　　　　sort($nums);
 
         　　　} else {
              echo '降順にソートします。';
@@ -24,14 +25,13 @@
              // 改行する
             echo '<br>';
 
-            rsort($order);
+            rsort($nums);
          }
 
-         $order = [15, 4, 18, 23, 10];
 
          //  配列$numbersの要素を1つずつ順番に出力する
-         foreach ($order as $order) {
-            echo $order;
+         foreach ($nums) {
+            echo $nums;
          }
         ?>
     </p>
