@@ -9,8 +9,8 @@
 <body>
     <p>
         <?php
-        function $order(15, 4, 18, 23, 10);
-        if ($order = 4, 10, 15, 18, 23) {
+        function sort($order15, $order4, $order18, $order23, $order10);
+        if ($order) {
             echo '昇順にソートします。';
 
             // 改行する
@@ -27,11 +27,11 @@
             rsort($order);
          }
 
-         $numbers = [15, 4, 18, 23, 10];
+         $order = [15, 4, 18, 23, 10];
 
          //  配列$numbersの要素を1つずつ順番に出力する
-         foreach ($numbers as $numbers) {
-            echo $$numbers;
+         foreach ($order as $order) {
+            echo $order;
          }
         ?>
     </p>
