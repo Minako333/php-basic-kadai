@@ -9,14 +9,14 @@
 <body>
     <p>
         <?php
-        function sort($order15, $order4, $order18, $order23, $order10);
+        function order($order15, $order4, $order18, $order23, $order10);
         if ($order) {
             echo '昇順にソートします。';
 
             // 改行する
             echo '<br>';
 
-　　　　　　　sort($order);
+　　　　　　　sort_2way($order);
 
         　　　} else {
              echo '降順にソートします。';
