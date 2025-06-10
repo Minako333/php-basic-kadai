@@ -25,14 +25,14 @@
               // 改行する
               echo '<br>';
             }
-        }
-        
+
         foreach ($array as $numbers) {
             echo $numbers . '<br>';
         }
+        }
 
-        sort_2way ($nums, TRUE);
         sort_2way ($nums, FALSE);
+        sort_2way ($nums, TRUE);
 
         ?>
     </p>
